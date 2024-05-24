@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    padding: 10px 130px;
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(60deg, #cc5ffc,#8954ee);
+}
+main{
+    display: flex;
+    height: inherit;
+    text-align: center;
+    justify-content: space-around;
+}
+.shadow{
+    background: #fff;
+    padding: 25px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px #616161;
+}
+.todo .addTodo{
+    padding: 38px 30px;
+    margin-bottom: 20px;
+}
+.addTodo input{
+    font-size: 20px;
+    padding: 10px 8px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 2px solid #ccc;
+}
+.addTodo button{
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 11px 22px;
+    border-radius: 5px;
+    background: #8052EC;
+}
+.todoList{
+    padding: 20px 35px; 
+}
+.todoList .listItem{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    color: #1c1c1c;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #616161;
+}
+.listItem .del{
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 1px 12px;
+    border-radius: 5px;
+    background: #8052EC;
+}
+.content h1{
+    color: #fff;
+    font-size: 100px;
+    margin-bottom: 25px;
+    text-shadow: 0px 0px 5px #616161;
+}
+.content h2{
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
